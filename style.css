@@ -1,0 +1,85 @@
+body {
+                background-color: #000000;
+                color: #FFFFFF;
+                pointer-events: none;
+                font-family: 'gil';
+                margin: 0 auto;
+                padding: 0px;
+            }
+            .socials {
+                opacity: 100%;
+                background-color: rgb(255, 255, 255);
+                height: 585px;
+                width: 690px;
+                border: 6px inset rgb(146, 0, 0);
+                color:black;
+                margin-bottom: 80px;
+            }
+            p {
+                font-size: 30px;
+            }
+            @font-face {
+                font-family: 'gil';
+                src: url(font/GIL.ttf);
+            }
+            .spacebg {
+                animation: backgroundScroll 15s linear infinite;
+                opacity: 50%;
+	            width: 100%;
+	            height: 100%;
+	            background-repeat: repeat;
+	            position:fixed;
+	            top:0px;
+	            left:0px;
+	            background-image: url("images/depth3.png");
+	            will-change: transform, filter;
+	            z-index: index -4;
+	            mix-blend-mode: screen;
+            }
+            .spacebg2 {
+                animation: backgroundScroll2 25s linear infinite;
+                opacity: 70%;
+	            width: 100%;
+	            height: 100%;
+	            background-repeat: repeat;
+	            position:fixed;
+	            top:0px;
+	            left:0px;
+	            background-image: url("images/depth2.png");
+	            will-change: transform, filter;
+	            z-index: index -1;
+	            mix-blend-mode: screen;
+            }
+            .spacebg3 {
+                animation: backgroundScroll3 25s linear infinite;
+                opacity: 100%;
+                width: 100%;
+	            height: 100%;
+	            background-repeat: repeat;
+	            position:fixed;
+	            top:0px;
+	            left:0px;
+	            background-image: url("images/depth1.png");
+	            will-change: transform, filter;
+	            z-index: index -2;
+	            mix-blend-mode: screen;
+            }
+            
+            @keyframes backgroundScroll {
+                0% {background-position:0px 0px; filter: opacity(50%);}
+                50% {background-position:-80px -800px; filter: opacity(50%);}
+                100% {background-position: -160px -1600px; filter: opacity(50%);}
+            }
+            @keyframes backgroundScroll2 {
+                0% {background-position:0px 0px; filter: opacity(50%);}
+                50% {background-position:-1280px 128px; filter: opacity(50%);}
+                100% {background-position: -2560px 256px; filter: opacity(50%);}
+            }
+            @keyframes backgroundScroll3 {
+                0% {background-position:0px 0px; filter: opacity(50%);}
+                50% {background-position:1280px 600px; filter: opacity(50%);}
+                100% {background-position: 2560px 1200px; filter: opacity(50%);}
+            }
+            .map {
+                margin-bottom: 80px;
+            }
