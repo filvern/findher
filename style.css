@@ -17,11 +17,7 @@ body {
             }
             p {
                 font-size: 30px;
-            }
-            @font-face {
-                font-family: 'gil';
-                src: url(font/GIL.ttf);
-            }
+            } 
             .spacebg {
                 animation: backgroundScroll 15s linear infinite;
                 opacity: 50%;
@@ -31,7 +27,7 @@ body {
 	            position:fixed;
 	            top:0px;
 	            left:0px;
-	            background-image: url("images/depth3.png");
+	            background-image: url("depth3.png");
 	            will-change: transform, filter;
 	            z-index: index -4;
 	            mix-blend-mode: screen;
@@ -45,7 +41,7 @@ body {
 	            position:fixed;
 	            top:0px;
 	            left:0px;
-	            background-image: url("images/depth2.png");
+	            background-image: url("depth2.png");
 	            will-change: transform, filter;
 	            z-index: index -1;
 	            mix-blend-mode: screen;
@@ -59,7 +55,7 @@ body {
 	            position:fixed;
 	            top:0px;
 	            left:0px;
-	            background-image: url("images/depth1.png");
+	            background-image: url("depth1.png");
 	            will-change: transform, filter;
 	            z-index: index -2;
 	            mix-blend-mode: screen;
