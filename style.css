@@ -76,7 +76,7 @@ a:hover {
 a:visited{
     color: rgb(167, 167, 167);
 }
-.div1, .div2, .div3 {
+.div1, .div2, .div3, .div1_1 {
     background-color: rgba(22, 17, 34, 1);
     background-size: 800px;
     background-position-x: center;
@@ -88,9 +88,19 @@ a:visited{
 }
 .div1 {
     width: 250px;
-    height: 1500px;
+    height: 520px;
     border: 6px ridge #aa3a3a;
+    border-bottom: rgba(0, 0, 0, 0) solid 6px;
     margin-right: 27px;
+}
+.div1_1 {
+    position: absolute;
+    height: 740px;
+    top: 961px;
+    width: 250px;
+    border: 6px ridge #aa3a3a;
+    border-top: rgba(0, 0, 0, 0) solid 6px;
+    z-index: -1;
 }
 .div2, .div2container {
     width: 600px;
@@ -125,6 +135,25 @@ h3 {
 }
 .toptree {
     margin-top: 40px;
+}
+.flammariondiv {
+    margin-top: 300px;
+    border-top: white solid 6px;
+    border-bottom: white solid 6px;
+    width: 107%;
+    margin-right: 100px;
+    height: 223px;
+    transform: translate(-12px, 0px);
+}
+.flammarion {
+    width: 103%;
+    transform: translate(-8px, 0px);
+}
+.flammariondiv2 {
+    border-right: 6px ridge #aa3a3a;
+    width: 100px;
+    height: 260px;
+    transform: translate(156px, -250px);
 }
 
 /*EVERYTHING BELOW THIS POINT IS FOR THE TWEETS.HTML PAGE */
