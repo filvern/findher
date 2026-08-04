@@ -227,5 +227,5 @@ h1.dogheaders {
 .dogpage {
     font-size: 24px;
     color: rgb(167, 167, 167);
-    display: inline;
+    display: inline-block;
 }
