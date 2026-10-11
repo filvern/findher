@@ -229,3 +229,7 @@ h1.dogheaders {
     color: rgb(167, 167, 167);
     display: inline-block;
 }
+.centervertical {
+    align-items: center;
+    padding-top: 30vh;
+}
