@@ -233,3 +233,7 @@ h1.dogheaders {
     align-items: center;
     padding-top: 30vh;
 }
+.t {
+    pointer-events: none;
+    user-select: none;
+}
