@@ -1,3 +1,4 @@
+/**WRITTEN BY POTATOCHIPSARES**/
 @font-face {
     font-family: eightbitop;
     src: url(fonts/8bitoperator_jve.otf) format('opentype');
@@ -26,21 +27,25 @@ body.tweetsbody {
     top: 0px;
 	left: 0px;
     will-change: transform, filter;
+    image-rendering: pixelated;
 }
 .spacebg {
-    animation: backgroundScroll 15s linear infinite;
+    transform: scale(3);
+    animation: backgroundScroll 55s linear infinite;
     opacity: 50%;
 	background-image: url("images/depth3.png");
 	z-index: -4;
 }
 .spacebg2 {
-    animation: backgroundScroll2 25s linear infinite;
+    transform: scale(3);
+    animation: backgroundScroll2 65s linear infinite;
     opacity: 70%;
 	background-image: url("images/depth2.png");
 	z-index: -2;
 }
 .spacebg3 {
-    animation: backgroundScroll3 25s linear infinite;
+    transform: scale(4);
+    animation: backgroundScroll3 65s linear infinite;
 	background-image: url("images/depth1.png");
 	z-index: -3;
 }
@@ -137,14 +142,14 @@ h3 {
     margin-top: 300px;
     border-top: white solid 6px;
     border-bottom: white solid 6px;
-    width: 107%;
+    width: 108%;
     margin-right: 100px;
     height: 223px;
     transform: translate(-12px, 0px);
 }
 .flammarion {
     width: 103%;
-    transform: translate(-8px, 0px);
+    transform: translate(-7px, 0px);
 }
 .flammariondiv2 {
     border-right: 6px ridge #aa3a3a;
@@ -219,6 +224,9 @@ h3 {
     font-size: 32px;
     margin-top: 20px;
     margin-left: 25%
+    
+/**vv 404 PAGE**/
+
 }
 h1.dogheaders {
     color:white;
