@@ -180,6 +180,12 @@ h3 {
     height: 260px;
     transform: translate(156px, -250px);
 }
+.meris {
+    transform: translate(-15px, 0px);
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 280px;
+}
 
 /*EVERYTHING BELOW THIS POINT IS FOR THE TWEETS.HTML PAGE */
 
